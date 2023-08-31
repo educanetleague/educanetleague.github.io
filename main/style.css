@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+* {box-sizing: border-box;}
+/*
+font-family: 'Caveat', cursive;
+font-family: 'Exo', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; 
+    object-fit: cover;
+    transform: translateZ(0);
+}
+
+.icons {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 20px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.icon-icon {
+    height: 60px;
+    width: 60px;
+    margin-left: 20px;
+    transition: transform 0.3s;
+}
+
+.icon-icon:hover {
+    transform: scale(1.2);
+}
+
+.followus-text {
+    font-family: 'Caveat', cursive;
+    font-size: 36px;
+    position: absolute;
+    top: 130px;
+    left: 1100px;
+    display: flex;
+    align-items: center;
+    transform: rotate(-13deg);
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.arrow {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 90px;
+    left: 1350px;
+    display: flex;
+    align-items: center;
+    transform: rotate(145deg);
+}
+
+.main-container {
+    margin: 150px;
+    position: relative;
+}
+
+.main-text {
+    line-height: 1;
+}
+
+#bold {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 144px;
+}
+
+#light {
+    font-weight: 300;
+    font-style: italic;
+    font-size: 144px;
+}
+
+.mid-text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: 48px;
+}
+
+.lower-text {
+    font-weight: 800;
+    font-size: 48px;
+}
