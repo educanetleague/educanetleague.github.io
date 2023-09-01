@@ -9,7 +9,6 @@ font-family: 'Quicksand', sans-serif;
 
 body {
     font-family: 'Poppins', sans-serif;
-    overflow: hidden;
     margin: 0;
     color: rgb(255, 255, 255);
 }
@@ -46,6 +45,7 @@ body {
 .icon-icon:hover {
     transform: scale(1.2);
 }
+/*
 
 .followus-text {
     font-family: 'Caveat', cursive;
@@ -58,7 +58,9 @@ body {
     transform: rotate(-13deg);
     color: rgba(255, 255, 255, 0.8);
 }
+*/
 
+/*
 .arrow {
     width: 70px;
     height: 70px;
@@ -68,8 +70,7 @@ body {
     display: flex;
     align-items: center;
     transform: rotate(145deg);
-}
-
+*/
 .main-container {
     margin: 150px;
     position: relative;
@@ -77,23 +78,22 @@ body {
 
 .main-text {
     line-height: 1;
+    font-size: 144px;
 }
 
 #bold {
     font-weight: 900;
     font-style: italic;
-    font-size: 144px;
 }
 
 #light {
     font-weight: 300;
     font-style: italic;
-    font-size: 144px;
 }
 
 .mid-text {
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 300;
     font-size: 48px;
@@ -102,4 +102,94 @@ body {
 .lower-text {
     font-weight: 800;
     font-size: 48px;
+}
+
+.follow-us {
+    font-size: 16px;
+}
+
+.instagram-link {
+    text-decoration: underline; 
+    transition: color 0.3s, text-decoration 0.3s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: #fff;
+}
+
+.instagram-link:hover {
+    color: #ddff00;
+    text-decoration: underline; 
+}
+
+
+@media (max-width: 1000px) {
+    .followis-container {
+        display: none;
+    }
+    .icons {
+        display: none;
+    }
+    .main-text {
+        font-size: 128px;
+    }
+    .followus-text {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
+    .main-container {
+        margin: 80px;
+        position: relative;
+    }
+    .mid-text {
+        margin-top: 70px;
+        margin-bottom: 90px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 36px;
+    }
+    .lower-text {
+        font-weight: 800;
+        font-size: 36px;
+    }
+    .follow-us {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 700px) {
+    .followis-container {
+        display: none;
+    }
+    .icons {
+        display: none;
+    }
+    .main-text {
+        font-size: 64px;
+    }
+    .followus-text {
+        display: none;
+    }
+    .arrow {
+        display: none;
+    }
+    .main-container {
+        margin: 28px;
+        position: relative;
+    }
+    .mid-text {
+        margin-top: 50px;
+        margin-bottom: 70px;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
+        font-size: 28px;
+    }
+    .lower-text {
+        font-weight: 800;
+        font-size: 36px;
+    }
+    .follow-us {
+        font-size: 12px;
+    }
 }
